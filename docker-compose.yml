@@ -1,0 +1,7 @@
+services:
+  ship-sprint:
+    build: .
+    container_name: ship-sprint
+    ports:
+      - "8091:80"
+    restart: unless-stopped
